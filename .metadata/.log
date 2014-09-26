@@ -20,3 +20,59 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 4 0 2014-09-26 13:18:28.330
+!MESSAGE Invalid project description.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createExistingProject(ProjectUtils.java:156)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.access$0(ProjectUtils.java:119)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils$1.run(ProjectUtils.java:91)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2327)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:111)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:55)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:241)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.access$2(GitImportWizard.java:222)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$2.run(GitImportWizard.java:192)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: OK
+Contains: \\servo\student\2020\bram.zerbe\GitHub\Testing-Out-Java overlaps the workspace location: \\servo\student\2020\bram.zerbe\GitHub\Testing-Out-Java
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2014-09-26 13:18:28.456
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2014-09-26 13:18:28.457
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2014-09-26 13:18:28.457
+!MESSAGE \\servo\student\2020\bram.zerbe\GitHub\Testing-Out-Java overlaps the workspace location: \\servo\student\2020\bram.zerbe\GitHub\Testing-Out-Java
+
+!ENTRY org.eclipse.egit.ui 4 0 2014-09-26 13:18:57.995
+!MESSAGE Invalid project description.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createExistingProject(ProjectUtils.java:156)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.access$0(ProjectUtils.java:119)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils$1.run(ProjectUtils.java:91)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2327)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:111)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:55)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:241)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.access$2(GitImportWizard.java:222)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$2.run(GitImportWizard.java:192)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: OK
+Contains: \\servo\student\2020\bram.zerbe\GitHub\Testing-Out-Java overlaps the workspace location: \\servo\student\2020\bram.zerbe\GitHub\Testing-Out-Java
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2014-09-26 13:18:58.004
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2014-09-26 13:18:58.004
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2014-09-26 13:18:58.005
+!MESSAGE \\servo\student\2020\bram.zerbe\GitHub\Testing-Out-Java overlaps the workspace location: \\servo\student\2020\bram.zerbe\GitHub\Testing-Out-Java
