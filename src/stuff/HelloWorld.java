@@ -3,12 +3,11 @@ package stuff;
 import java.awt.Canvas;
 import java.awt.Color;
 import java.awt.Frame;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
 
 public class HelloWorld {
 
 	public static void main(String[] args) throws InterruptedException {
+		
 		System.out.println("Hello, World!");
 		Canvas variab = new Canvas();
 		variab.setSize(120, 120);
